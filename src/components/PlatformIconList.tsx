@@ -33,7 +33,7 @@ const PlatformIconList = ({ platforms }: Props) => {
   return (
     <>
       {platforms.map((platform) => (
-        <Icon marginY={1} marginX={"2px"} color={"gray.500"} as={iconMap[platform.slug]} />
+        <Icon marginY={1} color={"gray.500"} as={iconMap[platform.slug]} />
       ))}
     </>
   );
